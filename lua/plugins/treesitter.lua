@@ -3,9 +3,6 @@ return {
 	"nvim-treesitter/nvim-treesitter",
 	build = ":TSUpdate",
 	config = function()
-		-- set termguicolors to enable highlight groups
-		vim.opt.termguicolors = true
-
 		-- tree sitter
 		require'nvim-treesitter.configs'.setup {
 			ensure_installed = { 
@@ -25,6 +22,5 @@ return {
 			sync_install = false, -- install parsers synchronously (only applied to `ensure_installed`)
 			highlight = { enable = true },
 		}
-
 	end
 }

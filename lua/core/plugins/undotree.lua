@@ -1,2 +1,0 @@
--- undotree
-return { "mbbill/undotree" }
