@@ -13,9 +13,10 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-	require("core.plugins.modules.nvim-tree"),
-	require("core.plugins.modules.onedark"),
-	require("core.plugins.modules.telescope"),
-	require("core.plugins.modules.treesitter"),
-	require("core.plugins.modules.treesitter-playground"),
+	require("core.plugins.nvim-tree"),
+	require("core.plugins.telescope"),
+	require("core.plugins.treesitter"),
+	require("core.plugins.vimtex"),
+	require("core.plugins.onedark"),
+	require("core.plugins.undotree"),
 })
