@@ -16,3 +16,6 @@ vim.opt.termguicolors = true
 
 -- turn off wrap
 vim.opt.wrap = false
+
+-- allows neovim to access the system clipboard
+vim.opt.clipboard = "unnamedplus" 
